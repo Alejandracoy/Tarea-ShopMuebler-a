@@ -1,0 +1,96 @@
+:root{
+    --fuentePrincipal: 'Raleway', sans-serif;
+}
+html{
+    box-sizing: border-box;
+}
+ *, *::before,*::after{
+     box-sizing: inherit;
+ }
+ 
+body{
+    font-family: var(--fuentePrincipal);
+    background-image: url(./desk.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+a{
+    color: #000;
+    text-decoration: none;
+    margin: 0 2rem;
+    transition: all 0.3s ease-in-out;
+}
+h2{
+    font-size: 2.5rem;
+}
+.container-one{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 1.5rem;
+}
+.container-two{
+    align-items: center;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    margin: 1.5rem;
+    width: 115rem;
+}
+
+.icons-one{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    width: 10rem;
+}
+.icons-two{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    width: 6rem;
+}
+
+.container-last{
+    display:inline-block;
+    text-align: center;
+    }
+
+.container-last h2{
+    display: flex;
+    font-size: 3rem;
+    justify-content: center;
+    margin-left: 30rem;
+    text-transform: uppercase;
+    }
+
+.container-last p{
+    display: flex;
+    justify-content: center;
+    margin-left: 30rem;
+}
+.button{
+    border-color: black;
+    border-style: solid;
+    border-width:thin;
+    display: flex;
+    font-size: 1.3rem;
+    justify-content:center;
+    text-transform: uppercase;
+    max-width: 15%;
+    margin-top: 3rem;
+    margin-left: 55rem;
+    padding: 0.8rem 0.7rem;
+}
+.nav a:hover{
+    color: rgb(179, 159, 159);
+}
+.button:hover{
+    color: black;
+    cursor: pointer;
+    border:none;
+    border-radius: 1rem;
+    background-color: rgb(204, 186, 186);
+}
